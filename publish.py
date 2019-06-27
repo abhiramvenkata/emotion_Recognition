@@ -5,7 +5,7 @@ import serial
 ser = serial.Serial('/dev/ttyACM0',9600)
 ser.baudrate=9600
 # AWS IoT certificate based connection
-myMQTTClient = AWSIoTMQTTClient("123afhlss456")
+myMQTTClient = AWSIoTMQTTClient("")
 myMQTTClient.configureEndpoint("a27pb8hmkx5vf5.iot.us-east-1.amazonaws.com", 8883)
 myMQTTClient.configureCredentials("/home/pi/cert/CA.pem", "/home/pi/cert/d96a287d20-private.pem.key", "/home/pi/cert/d96a287d20-certificate.pem.crt")
 myMQTTClient.configureOfflinePublishQueueing(-1)  # Infinite offline Publish queueing
