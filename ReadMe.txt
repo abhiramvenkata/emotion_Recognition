@@ -17,10 +17,7 @@ appears
 
 copy the line and paste it in the publish code on line 5
 
-
-email id for amazon is
-abhiramkuppa1996@gmail.com
-password::1236102799a
+Sign in to aws
 
 select aws iot
 select test
